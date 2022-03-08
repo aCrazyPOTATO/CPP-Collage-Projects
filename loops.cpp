@@ -9,4 +9,20 @@ int main()
     {
         cout << i << endl;
     }
+
+    /*While*/
+    int i = 0;
+    while (i < 100)
+    {
+        cout << i << endl;
+        i++;
+    }
+
+    /*Do Loop*/
+    int i = 0;
+    do
+    {
+        cout << i << endl;
+        i++;
+    } while (i < 100);
 }
