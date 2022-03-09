@@ -1,1 +1,1 @@
-69
+using namespace std;
