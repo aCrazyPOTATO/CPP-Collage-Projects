@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int div(int a, b = 2)
+int divide(int a, int b = 2)
 {
     int r;
     r = a / b;
@@ -9,5 +9,7 @@ int div(int a, b = 2)
 
 int main()
 {
-    cin
+    cout << divide(44) << endl;
+    cout << divide(4) << endl;
+    return 0;
 }
