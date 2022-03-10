@@ -27,3 +27,8 @@ public:
     }
 };
 int main()
+{
+    nest n1;
+    n1.inputnum();
+    n1.displaynum();
+}
