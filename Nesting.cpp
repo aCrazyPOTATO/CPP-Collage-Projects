@@ -22,6 +22,8 @@ public:
     {
         int sq = squarenum();
         int cu = cubenum();
-        cout <<
+        cout << "\n The Square Of a:" << a << sq;
+        cout << "\n The Cume of a:" << a << cu;
     }
-}
+};
+int main()
