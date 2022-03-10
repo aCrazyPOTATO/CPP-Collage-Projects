@@ -23,7 +23,7 @@ public:
         int sq = squarenum();
         int cu = cubenum();
         cout << "\n The Square Of a:" << a << sq;
-        cout << "\n The Cume of a:" << a << cu;
+        cout << "\n The Cube of a:" << a << cu;
     }
 };
 int main()
