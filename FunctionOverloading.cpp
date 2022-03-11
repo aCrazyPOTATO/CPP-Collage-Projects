@@ -2,7 +2,7 @@
 using namespace std;
 int mul(int a, int b)
 {
-    return (a * a);
+    return (a * b);
 }
 float mul(float a, float b)
 {
