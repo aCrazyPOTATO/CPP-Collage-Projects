@@ -9,7 +9,9 @@ void swap(int &n1, int &n2)
 }
 int main()
 {
-    int a = 1, b = 2;
+    int a, b;
+    cout << "Enter Two Numbers:" << endl;
+    cin >> a >> b;
     cout << "Before Swaping" << endl;
     cout << "a= " << a << endl;
     cout << "b= " << b << endl;
