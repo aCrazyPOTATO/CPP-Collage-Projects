@@ -6,7 +6,7 @@ class nest
     int squarenum()
     {
         return a * a;
-    }
+    };
 
 public:
     void inputnum()
