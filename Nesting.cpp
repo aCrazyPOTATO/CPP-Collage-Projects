@@ -13,11 +13,11 @@ public:
     {
         cout << "\n Enter a Number:";
         cin >> a;
-    }
+    };
     int cubenum()
     {
         return a * a * a;
-    }
+    };
     void displaynum()
     {
         int sq = squarenum();
