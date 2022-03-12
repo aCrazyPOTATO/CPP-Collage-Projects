@@ -3,9 +3,13 @@ using namespace std;
 class nest
 {
     int a;
-    int squarenum()
+    int sq()
     {
         return a * a;
+    };
+    int cu()
+    {
+        return a * a * a;
     };
 
 public:
@@ -14,16 +18,11 @@ public:
         cout << "\n Enter a Number:";
         cin >> a;
     };
-    int cubenum()
-    {
-        return a * a * a;
-    };
+
     void displaynum()
     {
-        int sq = squarenum();
-        int cu = cubenum();
-        cout << "\n The Square Of a:" << a << sq;
-        cout << "\n The Cube of a:" << a << cu;
+        cout << "\n The Square Of a:" << sq();
+        cout << "\n The Cube of a:" << cu();
     }
 };
 int main()
