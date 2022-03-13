@@ -13,7 +13,7 @@ int main()
 
     cout << "First argument passed: ";
 
-    display('#');
+    display('^');
 
     cout << "Both arguments passed: ";
 
