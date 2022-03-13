@@ -24,7 +24,7 @@ int main()
 
 void display(char c, int count)
 {
-    for (int i = 1; i <= count; ++i)
+    for (int i = 1; i <= count; i++)
     {
         cout << c;
     }
