@@ -17,7 +17,7 @@ int main()
 
     cout << "Both arguments passed: ";
 
-    display('$', count);
+    display('@', count);
 
     return 0;
 }
