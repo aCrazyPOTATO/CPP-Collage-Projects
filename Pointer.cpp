@@ -8,7 +8,6 @@ int main()
     // address
     cout << "The Address of i is" << &i << endl;
     cout << "The Address of i is" << b << endl;
-    // value
     cout << "The Value at address b is " << *b << endl;
     int **c = &b;
     cout << "The Address of b is" << &b << endl;
