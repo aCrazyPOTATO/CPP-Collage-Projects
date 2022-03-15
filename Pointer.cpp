@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    // Pointer//
     int i = 56;
     int *b = &i;
     // address
