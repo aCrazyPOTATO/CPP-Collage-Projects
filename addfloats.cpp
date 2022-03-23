@@ -3,8 +3,7 @@ using namespace std;
 int main()
 {
     float a, b, s;
-    cout << "Enter Two Numbers: \n"
-         << endl;
+    cout << "Enter Two Numbers:" << endl;
     cin >> a >> b;
     s = a + b;
     cout << "Sum of Two Numbers is:" << s << endl;
